@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+
+.header {
+  width: 100%;
+  height:50px;
+  border:1px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+nav{
+	background-color: white;
+	display: grid;
+	place-items: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul a{
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s ease-in;
+	font-size: 20px;
+}
+nav ul a:hover{
+	background-color: #F5EBE0;
+	color:white;
+}
+.Inner_box{
+	max-width: 650px;
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(255,255,255,.4);
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+p{
+	border:5px solid #FEFCF3;
+	padding: 3px;
+	margin: 5px;
+	width: 45%;
+	height: 500px;
+	objectif-fit: cover;
+	cursor: pointer;
+	transition: 0,2s ease;
+	font-size: 2em;
+	font-family: "Classyvogueregular-p7rRy", sans-serif
+}
+
+@font-face {
+	font-family: 'Classyvogueregular-p7rRy';
+	src: url(Classyvogueregular-p7rRy.otf);
+}
+@font-face {
+	font-family: 'Vogue';
+	src: url(Vogue.ttf)
+}
+h1{
+	font-size: 2em;
+	font-family: "Vogue", sans-serif;
+}
+
